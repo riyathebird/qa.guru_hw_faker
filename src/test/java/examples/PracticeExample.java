@@ -1,4 +1,4 @@
-package com.riyathebird;
+package examples;
 
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.Configuration;
