@@ -32,7 +32,7 @@ public class AutomationPracticeForm {
         $("#genterWrapper").$(byText("Male")).click();
         $("#userNumber").setValue("1234567890");
 
-        $("[id=dateOfBirthInput]").click();
+        $("[#dateOfBirthInput]").click();
         $(".react-datepicker__month-select").click();
         $(".react-datepicker__month-select").selectOption("January");
         $(".react-datepicker__year-select").click();
