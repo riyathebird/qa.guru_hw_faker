@@ -19,6 +19,5 @@ public class JavaOutOfMemory {
         System.out.println(c);
         System.out.println(c + 2);
         System.out.println(b - 1);
-
     }
 }
