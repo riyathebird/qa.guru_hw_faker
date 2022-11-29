@@ -3,7 +3,7 @@ package com.riyathebird;
 import org.junit.jupiter.api.Test;
 import static pages.testdata.AutomationPracticeData.*;
 
-public class AutomationPracticeFormPageObjects extends TestBase {
+public class AutomationPracticeFormTest extends TestBase {
 
     @Test
     void fillFormTest() {
