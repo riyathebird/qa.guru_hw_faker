@@ -31,7 +31,8 @@ public class AutomationPracticeData {
     }
 
     public static String monthRandom() {
-        String[] month = {"January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"};
+        String[] month = {"January", "February", "March", "April", "May", "June",
+                "July", "August", "September", "October", "November", "December"};
         int index = random.nextInt(month.length);
         return month[index];
     }
