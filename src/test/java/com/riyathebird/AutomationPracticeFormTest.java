@@ -33,7 +33,7 @@ public class AutomationPracticeFormTest extends TestBase {
                 day + " " + month + "," + year)
         .verifyResult("Subjects", subject)
         .verifyResult("Hobbies", hobbies)
-        .verifyResult("Picture", picture)
+        .verifyResult("Picture", "sample.jpg")
         .verifyResult("Address", currentAddress)
         .verifyResult("State and City", state + " " + city);
     }

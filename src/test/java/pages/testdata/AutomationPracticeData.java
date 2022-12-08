@@ -1,5 +1,7 @@
 package pages.testdata;
+
 import com.github.javafaker.Faker;
+
 import java.util.Locale;
 import java.util.Random;
 
