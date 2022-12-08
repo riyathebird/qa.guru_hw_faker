@@ -13,7 +13,7 @@ public class AutomationPracticeData {
             userEmail = faker.internet().emailAddress(),
             userGender = genderRandom(),
             userNumber = faker.phoneNumber().subscriberNumber(10),
-            day = String.valueOf(faker.number().numberBetween(1,28)),
+            day = String.format("%02d", faker.number().numberBetween(1,28)),
             month = monthRandom(),
             year = String.valueOf(faker.number().numberBetween(1970, 2010)),
             subject = subjectsRandom(),
